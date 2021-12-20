@@ -1,0 +1,53 @@
+{
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navagationBarTitleText": "信息页"
+				// "navigationBarBackgroundColor": "#00FF00",
+				// "enablePullDownRefresh": true,
+				// "h5": {
+				// 	"pullToRefresh": {
+				// 		"color": "#FF6347"
+				// 	}
+				// }
+			}
+			
+		},
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/contact/contact"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "信息页",
+		"navigationBarBackgroundColor": "#FF6347",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath":"static/tabs/home.png",
+				"selectedIconPath":"static/tabs/home-active.png"
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/message/message",
+				"iconPath":"static/tabs/message.png",
+				"selectedIconPath":"static/tabs/message-active.png"
+			},
+			{
+				"text": "我们",
+				"pagePath": "pages/contact/contact",
+				"iconPath":"static/tabs/contact.png",
+				"selectedIconPath":"static/tabs/contact-active.png"
+			}
+		]
+	}
+}
