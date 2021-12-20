@@ -4,7 +4,7 @@
 		{
 			"path": "pages/message/message",
 			"style": {
-				"navagationBarTitleText": "信息页"
+				"navigationBarTitleText": "信息页"
 				// "navigationBarBackgroundColor": "#00FF00",
 				// "enablePullDownRefresh": true,
 				// "h5": {
@@ -24,11 +24,16 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "信息页",
+		"navigationBarTitleText": "主页",
 		"navigationBarBackgroundColor": "#FF6347",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
+		"color": "#8DB6CD",
+		"selectedColor":"#4876FF",
+		"backgroundColor":"#fff",
+		"borderStyle":"black",
+		"position":"bottom",
 		"list": [
 			{
 				"text": "首页",
