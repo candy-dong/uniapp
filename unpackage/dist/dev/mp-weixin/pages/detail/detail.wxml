@@ -1,1 +1,1 @@
-<view>detail</view>
+<view><view><text>唱歌跳舞打篮球</text></view><view><text selectable="{{true}}" space="ensp">唱歌 跳舞   打篮球</text></view><view><text space="emsp">唱歌跳舞   打篮球</text></view><view><text style="font-size:30px;" space="nbsp">唱歌跳舞   打篮球</text></view><view><text>&</text></view></view>
