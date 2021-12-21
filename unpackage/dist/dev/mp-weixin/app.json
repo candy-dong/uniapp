@@ -2,7 +2,8 @@
   "pages": [
     "pages/message/message",
     "pages/index/index",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {
