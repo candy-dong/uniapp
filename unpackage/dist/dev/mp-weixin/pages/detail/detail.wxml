@@ -1,1 +1,1 @@
-<view><view><text>唱歌跳舞打篮球</text></view><view><text selectable="{{true}}" space="ensp">唱歌 跳舞   打篮球</text></view><view><text space="emsp">唱歌跳舞   打篮球</text></view><view><text style="font-size:30px;" space="nbsp">唱歌跳舞   打篮球</text></view><view><text>&</text></view></view>
+<view><view class="box2" hover-class="box2-active"><view class="box" hover-start-time="{{2000}}" hover-stay-time="{{2000}}" hover-class="box-active" hover-stop-propagation="{{true}}"></view></view></view>
