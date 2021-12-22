@@ -14,6 +14,10 @@
 		<button type="primary" plain>按钮</button>
 		<button type="primary" disabled>按钮</button>
 		<button loading></button>
+		<image src="https://wx1.sinaimg.cn/large/d828bdcdgy1gxmnt31qptj20s00sgtb9.jpg"></image>
+		<image mode="aspectFit" src="https://wx1.sinaimg.cn/large/d828bdcdgy1gxmnt31qptj20s00sgtb9.jpg"></image>
+		<image mode="scaleToFill" src="https://wx1.sinaimg.cn/large/d828bdcdgy1gxmnt31qptj20s00sgtb9.jpg"></image>
+		<image mode="aspectFill" src="https://wx1.sinaimg.cn/large/d828bdcdgy1gxmnt31qptj20s00sgtb9.jpg"></image>
 	</view>
 </template>
 
