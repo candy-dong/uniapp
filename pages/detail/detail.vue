@@ -8,6 +8,12 @@
 		<view class="box2" hover-class="box2-active">
 			<view :hover-start-time="2000" :hover-stay-time="2000" class="box" hover-class="box-active" hover-stop-propagation></view>
 		</view>
+		<button>按钮</button>
+		<button size="mini">按钮</button>
+		<button type="primary">按钮</button>
+		<button type="primary" plain>按钮</button>
+		<button type="primary" disabled>按钮</button>
+		<button loading></button>
 	</view>
 </template>
 
