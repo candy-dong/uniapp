@@ -2,6 +2,12 @@
 	<view>
 		<button type="primary" @click="chooseImg">上传图片</button>
 		<image v-for="item in imgArr" :src="item" @click="previewImg(item)"></image>
+		<!-- #ifdef H5-->
+		<view>我希望只在h5页面中出现</view>
+		<!-- #endif -->
+		<!-- #ifdef MP-WEIXIN -->
+		<view>我希望只在小程序页面中出现</view>
+		<!-- #endif -->
 	</view>
 </template>
 
@@ -29,9 +35,27 @@
 					indicator: 'number'
 				})
 			}
+		},
+		onLoad(){
+			// #ifdef H5
+			console.log('我希望在h5中打印')
+			// #endif
+			// #ifdef MP-WEIXIN
+			console.log('我希望在微信小程序中打印')
+			// #endif
 		}
 	}
 </script>
 
 <style>
+	// #ifdef H5
+	view{
+		color: hotpink;
+	}
+	// #endif
+	// #ifdef MP-WEIXIN
+	view{
+		color: #0000FF;
+	}
+	// #endif
 </style>
