@@ -4,7 +4,8 @@
 		{
 			"path": "pages/list/list",
 			"style":{
-				"enablePullDownRefresh":true
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":200
 			}
 		},
 		{
