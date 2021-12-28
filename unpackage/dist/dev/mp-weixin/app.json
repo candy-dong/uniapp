@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/navigator/navigator",
     "pages/message/message",
     "pages/list/list",
     "pages/index/index",

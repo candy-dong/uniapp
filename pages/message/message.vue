@@ -13,6 +13,9 @@
 
 <script>
 	export default{
+		onLoad(options) {
+			console.log('信息页面卸载了',options)
+		},
 		data() {
 			return{
 				imgArr: []

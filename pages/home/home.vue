@@ -6,7 +6,7 @@
 		<view>{{1+1}}</view>
 		<view>{{flag?'这是反话，我是假的':'这是反话，我是真的'}}</view>
 	</view>
-</template>
+ </template>
 
 <script>
 	export default {
