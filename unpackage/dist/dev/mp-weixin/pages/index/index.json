@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "test": "/components/test"
+    "test": "/components/test",
+    "test-a": "/components/a",
+    "test-b": "/components/b"
   }
 }

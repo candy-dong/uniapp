@@ -1,1 +1,1 @@
-<view class="content"><test vue-id="8dd740cc-1" title="{{title}}" data-event-opts="{{[['^myEven',[['getNum']]]]}}" bind:myEven="__e" bind:__l="__l"></test>{{'这是子组件数值'+num+''}}</view>
+<view class="content"><test vue-id="8dd740cc-1" title="{{title}}" data-event-opts="{{[['^myEven',[['getNum']]]]}}" bind:myEven="__e" bind:__l="__l"></test>{{'这是子组件数值'+num+''}}<test-a vue-id="8dd740cc-2" bind:__l="__l"></test-a><test-b vue-id="8dd740cc-3" bind:__l="__l"></test-b></view>

@@ -6,11 +6,15 @@
 		</view> -->
 		<test  :title="title" @myEven="getNum"></test>
 		这是子组件数值{{num}}
+		<test-a></test-a>
+		<test-b></test-b>
 	</view>
 </template>
 
 <script>
 	import test from "../../components/test.vue"
+	import testA from "../../components/a.vue"
+	import testB from "../../components/b.vue"
 	export default {
 		data() {
 			return {
@@ -19,7 +23,9 @@
 			}
 		},
 		components:{
-			test
+			test,
+			"test-a":testA,
+			"test-b":testB
 		},
 		onLoad(options) {
 			console.log('页面加载了',options)
