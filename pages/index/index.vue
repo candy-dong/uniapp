@@ -8,6 +8,15 @@
 		这是子组件数值{{num}}
 		<test-a></test-a>
 		<test-b></test-b>
+		<view>
+		    <uni-calendar 
+		    :insert="true"
+		    :lunar="true" 
+		    :start-date="'2019-3-2'"
+		    :end-date="'2019-5-20'"
+		    @change="change"
+		     />
+		</view>
 	</view>
 </template>
 
@@ -43,6 +52,9 @@
 			getNum(num){
 				console.log(num)
 				this.num = num
+			},
+			 change(e) {
+				console.log(e);
 			}
 		}
 	}
