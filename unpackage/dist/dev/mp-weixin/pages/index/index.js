@@ -130,22 +130,29 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-//
-//
-//
-//
-//
-//
-//
-//
-var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var test = function test() {__webpack_require__.e(/*! require.ensure | components/test */ "components/test").then((function () {return resolve(__webpack_require__(/*! ../../components/test.vue */ 76));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
 {
   data: function data() {
     return {
-      title: 'Hello' };
+      title: 'Hello',
+      num: 0 };
 
   },
+  components: {
+    test: test },
+
   onLoad: function onLoad(options) {
     console.log('页面加载了', options);
   },
@@ -158,7 +165,11 @@ var _default =
   onHide: function onHide() {
     console.log('页面隐藏了');
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    getNum: function getNum(num) {
+      console.log(num);
+      this.num = num;
+    } } };exports.default = _default;
 
 /***/ }),
 

@@ -1,18 +1,25 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		<!-- <image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
-		</view>
+		</view> -->
+		<test  :title="title" @myEven="getNum"></test>
+		这是子组件数值{{num}}
 	</view>
 </template>
 
 <script>
+	import test from "../../components/test.vue"
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
+				num: 0
 			}
+		},
+		components:{
+			test
 		},
 		onLoad(options) {
 			console.log('页面加载了',options)
@@ -27,7 +34,10 @@
 			console.log('页面隐藏了')
 		},
 		methods: {
-
+			getNum(num){
+				console.log(num)
+				this.num = num
+			}
 		}
 	}
 </script>
